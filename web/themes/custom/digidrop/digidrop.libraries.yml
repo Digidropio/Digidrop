@@ -1,0 +1,12 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/custom.js: {}
+  fonts:
+      css:
+        theme:
+          '//fonts.googleapis.com/css?family=Open+Sans:regular,bold': { type: external, minified: true }
+  dependencies:
+    - core/jquery
