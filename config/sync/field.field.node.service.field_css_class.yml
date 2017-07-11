@@ -1,0 +1,19 @@
+uuid: b8d1bbfb-f828-4d6f-a15e-9cf0c0feae67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_css_class
+    - node.type.service
+id: node.service.field_css_class
+field_name: field_css_class
+entity_type: node
+bundle: service
+label: 'CSS class'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

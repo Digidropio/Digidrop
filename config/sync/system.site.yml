@@ -1,0 +1,14 @@
+uuid: 587f7e97-0ab0-4f02-bee5-df8a5b4a2967
+name: Digidrop
+mail: alex@digidrop.io
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

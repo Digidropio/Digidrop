@@ -1,0 +1,21 @@
+uuid: bde83d88-b001-4d79-8db3-8ac9d9ae2385
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_text
+    - node.type.service
+  module:
+    - text
+id: node.service.field_hero_text
+field_name: field_hero_text
+entity_type: node
+bundle: service
+label: 'Hero text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

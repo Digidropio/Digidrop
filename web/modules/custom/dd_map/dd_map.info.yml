@@ -1,0 +1,4 @@
+name: Map location
+description: Shows map location
+core: 8.x
+type: module

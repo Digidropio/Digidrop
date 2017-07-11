@@ -1,0 +1,20 @@
+uuid: afe1ccdd-514d-4c6d-8942-6e742e1e2bfd
+langcode: en
+status: true
+dependencies:
+  theme:
+    - digidrop
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: digidrop_page_title
+theme: digidrop
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

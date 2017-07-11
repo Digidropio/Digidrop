@@ -1,0 +1,62 @@
+h1, h1 a, h2, h3, h4 {
+  font-family: 'filson-soft';
+  font-style: normal;
+  font-weight: 500; }
+
+.dd-logo {
+  width: 222px;
+  height: 67px;
+  background: url("../images/digidrop_logo.svg") no-repeat transparent 0 0;
+  float: left;
+  display: inline-block;
+  text-indent: -999px;
+  overflow: hidden; }
+
+p {
+  font-family: "Open Sans"; }
+
+.jumbotron {
+  border-radius: 0;
+  margin-bottom: 0; }
+
+h3 {
+  font-size: 2.8rem;
+  text-align: center; }
+
+a:hover {
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+#use-drupal {
+  padding: 2rem;
+  background-color: #123B54; }
+  #use-drupal h3 {
+    text-align: center;
+    color: #fff; }
+    #use-drupal h3 a {
+      color: #53B0EB; }
+  #use-drupal p {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "filson-soft"; }
+
+.nav-overlay {
+  background: rgba(49, 149, 210, 0.8);
+  display: none;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  z-index: 99; }
+
+header {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background: url("../images/header.jpg") top center transparent no-repeat;
+  background-size: cover;
+  height: 450px; }

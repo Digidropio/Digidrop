@@ -1,0 +1,22 @@
+uuid: 19446132-692a-4955-ab02-24dd49b4d238
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - digidrop
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: digidrop_messages
+theme: digidrop
+region: content
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

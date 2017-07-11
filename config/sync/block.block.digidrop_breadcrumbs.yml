@@ -1,0 +1,22 @@
+uuid: b2beeb8e-2609-44aa-85df-4ecb3a84e5e4
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - digidrop
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: digidrop_breadcrumbs
+theme: digidrop
+region: navigation
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

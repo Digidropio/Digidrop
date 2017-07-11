@@ -1,0 +1,22 @@
+uuid: b2d32ef9-0ba1-4cce-877f-dfc009a1bb83
+langcode: en
+status: true
+dependencies:
+  theme:
+    - digidrop
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: digidrop_local_tasks
+theme: digidrop
+region: content
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
