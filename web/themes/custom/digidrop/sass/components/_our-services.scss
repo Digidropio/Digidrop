@@ -24,9 +24,37 @@
       -moz-transition:.5s;
       -webkit-transition:.5s;
       transition:.5s;
+      padding: 40px 0;
       &:hover {
         text-decoration: none;
         background-color: $lightblue_hover;
+      }
+      > div {
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding: 60px 0 0 0;
+        a {
+          padding-top:20px;
+          clear:both
+        }
+      }
+      .i-web-development {
+        background-image: url('../images/services/web_development.png');
+      }
+      .i-drupal {
+        background-image: url('../images/services/drupal.png');
+      }
+      .i-consultancy {
+        background-image: url('../images/services/consultancy.png');
+      }
+      .i-training {
+        background-image: url('../images/services/training.png');
+      }
+      .i-app {
+        background-image: url('../images/services/app_development.png');
+      }
+      .i-hosting {
+        background-image: url('../images/services/hosting.png');
       }
     }
   }

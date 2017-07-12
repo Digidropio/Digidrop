@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+  body {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    &.user-logged-in {
+      margin-top: 15px;
+    }
+  }
+}

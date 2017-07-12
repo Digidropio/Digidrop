@@ -4,4 +4,34 @@ header {
   background: url("../images/header.jpg") top center transparent no-repeat;
   background-size: cover;
   height: 450px;
+    .dd-logo {
+
+      height: 67px;
+      background-image: url(../images/digidrop_logo.svg);
+      @media screen and (min-width: 768px) {
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: 0 0;
+        width: 222px;
+        float: left;
+      }
+      display: inline-block;
+      text-indent: -999px;
+      overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .dd-logo {
+    width: 100%;
+    clear:both;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: 0 0;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+  }
 }
