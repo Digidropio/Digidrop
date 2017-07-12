@@ -1,4 +1,4 @@
-h1, h1 a, h2, h3, h4 {
+h1, h1 a, h2, h3, h4, .dd-font {
   font-family: 'filson-soft';
   font-style: normal;
   font-weight: 500; }
@@ -30,6 +30,10 @@ a:hover {
   -webkit-transition: .5s;
   transition: .5s; }
 
+.block h2 {
+  text-align: center;
+  font-size: 29px; }
+
 #use-drupal {
   padding: 2rem;
   background-color: #123B54; }
@@ -60,3 +64,32 @@ header {
   background: url("../images/header.jpg") top center transparent no-repeat;
   background-size: cover;
   height: 450px; }
+
+.block-our-services {
+  background-color: #3195D2;
+  padding: 20px 0; }
+  .block-our-services .container h2, .block-our-services .container h3 a {
+    color: #fff; }
+  .block-our-services .container .i-service,
+  .block-our-services .container .i-service div a {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'filson-soft';
+    font-style: normal;
+    font-weight: 500; }
+    .block-our-services .container .i-service:hover,
+    .block-our-services .container .i-service div a:hover {
+      text-decoration: none; }
+  .block-our-services .container .i-service {
+    cursor: pointer;
+    border-radius: 15px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s; }
+    .block-our-services .container .i-service:hover {
+      text-decoration: none;
+      background-color: #32A6ED; }

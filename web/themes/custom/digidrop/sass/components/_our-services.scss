@@ -1,0 +1,33 @@
+.block-our-services {
+  background-color: $lightblue;
+  padding:20px 0;
+  .container {
+    h2, h3 a {
+      color: #fff;
+    }
+    .i-service,
+    .i-service div a{
+      padding:10px;
+      color: #fff;
+      font-size:20px;
+      text-align: center;
+      @include dd_font;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .i-service {
+      cursor: pointer;
+      border-radius: 15px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition:.5s;
+      &:hover {
+        text-decoration: none;
+        background-color: $lightblue_hover;
+      }
+    }
+  }
+}
