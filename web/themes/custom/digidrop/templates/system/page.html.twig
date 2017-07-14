@@ -56,14 +56,15 @@
  * @see html.html.twig
  */
 #}
+<!--
 <div class="fullscreen nav-overlay">
     <div class="container">
         <div class="row">
-            {{ page.navigation }}
+          {#  {{ page.navigation }} #}
         </div>
     </div>
 </div>
-
+-->
 
 {# header #}
 <header>
@@ -72,9 +73,11 @@
             <h1 class="dd-logo"><a href="{{ path('<front>') }}">DigiDrop - Providing Digital Solutions</a></h1>
         </div>
     </div>
+    <!--
     <nav id="nav" class="closed">
         <a href="#" class="nav-btn closed">Navigation</a>
     </nav>
+    -->
     {{ page.header }}
 </header>
 
@@ -121,3 +124,10 @@
     {{ page.below_content }}
 {% endif %}
 
+<footer>
+    <div class="container">
+        <div class="row">
+            <p>&copy; 2017 Digidrop Ltd.</p>
+        </div>
+    </div>
+</footer>

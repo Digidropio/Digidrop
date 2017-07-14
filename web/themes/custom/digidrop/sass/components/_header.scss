@@ -5,15 +5,16 @@ header {
   background-size: cover;
   height: 450px;
     .dd-logo {
-
       height: 67px;
-      background-image: url(../images/digidrop_logo.svg);
-      @media screen and (min-width: 768px) {
-        background-repeat: no-repeat;
-        background-color: transparent;
-        background-position: 0 0;
-        width: 222px;
-        float: left;
+      a {
+        background-image: url(../images/digidrop_logo.svg);
+        @media screen and (min-width: 768px) {
+          background-repeat: no-repeat;
+          background-color: transparent;
+          background-position: 0 0;
+          width: 222px;
+          float: left;
+        }
       }
       display: inline-block;
       text-indent: -999px;

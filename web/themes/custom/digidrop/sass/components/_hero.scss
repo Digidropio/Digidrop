@@ -4,3 +4,50 @@
     background-size: cover;
   }
 }
+// drupal
+.page-node-2 {
+  header {
+    background:url('../images/hero/drupal.jpg') -10px center no-repeat transparent;
+    background-size: cover;
+    h1.dd-logo {
+      a {
+        fill: #333;
+      }
+    }
+  }
+}
+// web dev
+.page-node-1 {
+  header {
+    background: linear-gradient(45deg,rgba(#00e5ff, .5) 0,rgba(#0e69be, .75) 100%);
+  }
+}
+
+// consultancy
+.page-node-3 {
+  header {
+
+    background: linear-gradient(45deg,rgba(#ff703a, .5) 0,rgba(#ff142a, .75) 100%);
+  }
+}
+
+// app development
+.page-node-4 {
+  header {
+    background:linear-gradient(45deg,rgba(242,120,78,.5) 0,rgba(92,24,137,.75) 100%);
+  }
+}
+
+// training
+.page-node-5 {
+  header {
+    background:linear-gradient(45deg, rgba(0, 190, 181, 0.75) 0, rgba(76, 67, 66, 0.75) 100%);
+  }
+}
+
+// hosting
+.page-node-6 {
+  header {
+    background: linear-gradient(45deg,rgba(#9f21ff, .80) 0,rgba(#0e69be, .75) 100%);
+  }
+}

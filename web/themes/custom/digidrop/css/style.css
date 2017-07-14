@@ -38,6 +38,17 @@ a:hover {
   body.user-logged-in {
     margin-top: 15px; } }
 
+.path-frontpage #main-content {
+  padding: 0; }
+
+#main-content {
+  padding: 20px 0; }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0; }
+
 .block h2 {
   text-align: center;
   font-size: 29px; }
@@ -59,7 +70,7 @@ a:hover {
 #block-getintouch {
   background-color: #F7F4F4;
   text-align: center;
-  padding: 20px 0; }
+  padding: 0 0 20px 0; }
   #block-getintouch a {
     color: #123B54;
     font-size: 1.9rem;
@@ -91,17 +102,18 @@ header {
   height: 450px; }
   header .dd-logo {
     height: 67px;
-    background-image: url(../images/digidrop_logo.svg);
     display: inline-block;
     text-indent: -999px;
     overflow: hidden; }
-    @media screen and (min-width: 768px) {
-      header .dd-logo {
-        background-repeat: no-repeat;
-        background-color: transparent;
-        background-position: 0 0;
-        width: 222px;
-        float: left; } }
+    header .dd-logo a {
+      background-image: url(../images/digidrop_logo.svg); }
+      @media screen and (min-width: 768px) {
+        header .dd-logo a {
+          background-repeat: no-repeat;
+          background-color: transparent;
+          background-position: 0 0;
+          width: 222px;
+          float: left; } }
 
 @media screen and (max-width: 768px) {
   .dd-logo {
@@ -168,3 +180,24 @@ header {
 .path-frontpage header {
   background: url("../images/hero/home.jpg") top center no-repeat transparent;
   background-size: cover; }
+
+.page-node-2 header {
+  background: url("../images/hero/drupal.jpg") -10px center no-repeat transparent;
+  background-size: cover; }
+  .page-node-2 header h1.dd-logo a {
+    fill: #333; }
+
+.page-node-1 header {
+  background: linear-gradient(45deg, rgba(0, 229, 255, 0.5) 0, rgba(14, 105, 190, 0.75) 100%); }
+
+.page-node-3 header {
+  background: linear-gradient(45deg, rgba(255, 112, 58, 0.5) 0, rgba(255, 20, 42, 0.75) 100%); }
+
+.page-node-4 header {
+  background: linear-gradient(45deg, rgba(242, 120, 78, 0.5) 0, rgba(92, 24, 137, 0.75) 100%); }
+
+.page-node-5 header {
+  background: linear-gradient(45deg, rgba(0, 190, 181, 0.75) 0, rgba(76, 67, 66, 0.75) 100%); }
+
+.page-node-6 header {
+  background: linear-gradient(45deg, rgba(159, 33, 255, 0.8) 0, rgba(14, 105, 190, 0.75) 100%); }

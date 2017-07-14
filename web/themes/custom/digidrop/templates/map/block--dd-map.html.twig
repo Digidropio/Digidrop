@@ -8,7 +8,7 @@
       center: {lat: 51.2467790, lng: -0.5925924}
     });
 
-    var goldStar = {
+    var DD = {
       path: 'M0-48c-9.8 0-17.7 7.8-17.7 17.4 0 15.5 17.7 30.6 17.7 30.6s17.7-15.4 17.7-30.6c0-9.6-7.9-17.4-17.7-17.4z',
       fillColor: '#3195D2',
       fillOpacity: 1,
@@ -19,8 +19,9 @@
 
     var marker = new google.maps.Marker({
       position: map.getCenter(),
-      icon: goldStar,
-      map: map
+      icon: DD,
+      map: map,
+      scrollwheel:  false
     });
   }
 </script>
