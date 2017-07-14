@@ -56,6 +56,23 @@ a:hover {
     font-size: 2rem;
     font-family: "filson-soft"; }
 
+#block-getintouch {
+  background-color: #F7F4F4;
+  text-align: center;
+  padding: 20px 0; }
+  #block-getintouch a {
+    color: #123B54;
+    font-size: 1.9rem;
+    font-family: "filson-soft";
+    padding: 3px; }
+    #block-getintouch a:hover {
+      text-decoration: none;
+      color: #fff;
+      background-color: #123B54; }
+
+#map {
+  height: 300px; }
+
 .nav-overlay {
   background: rgba(49, 149, 210, 0.8);
   display: none;
