@@ -40,7 +40,7 @@ a:hover {
   body.user-logged-in {
     margin-top: 15px; } }
 
-.path-frontpage #main-content {
+.path-frontpage .region-content {
   padding: 0; }
 
 .region-content {
