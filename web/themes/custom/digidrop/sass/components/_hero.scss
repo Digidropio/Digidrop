@@ -1,3 +1,13 @@
+header {
+  background-color:$darkblue;
+  h1 {
+    text-align: center;
+    color:#fff;
+    font-size:5rem;
+    padding:20px;
+  }
+}
+
 .path-frontpage {
   header {
     background:url('../images/hero/home.jpg') top center no-repeat transparent;
@@ -9,7 +19,7 @@
   header {
     background:url('../images/hero/drupal.jpg') -10px center no-repeat transparent;
     background-size: cover;
-    h1.dd-logo {
+    div.dd-logo {
       a {
         fill: #333;
       }

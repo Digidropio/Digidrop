@@ -1,5 +1,5 @@
 .overlay {
-  background: rgba(#3195D2, 0.8);
+  background: rgba(#3195D2, 0.9);
   display:none;
   position:fixed;
   top:0;
@@ -46,13 +46,13 @@
       }
       .get-in-touch {
         clear: both;
-        padding-top:20px;
+        padding-top:40px;
         a {
           text-align: center;
-          font-size: 3.5rem;
+          font-size: 4rem;
           @include dd_font;
           color: $darkblue;
-          line-height: 22px;
+          line-height: 32px;
           &:hover {
             text-decoration: none;
           }

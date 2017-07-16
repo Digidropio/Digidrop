@@ -49,6 +49,9 @@ footer {
   color: #fff;
   padding: 10px 0; }
 
+.page-header {
+  border: 0; }
+
 .block h2 {
   text-align: center;
   font-size: 29px; }
@@ -85,7 +88,7 @@ footer {
   height: 300px; }
 
 .overlay {
-  background: rgba(49, 149, 210, 0.8);
+  background: rgba(49, 149, 210, 0.9);
   display: none;
   position: fixed;
   top: 0;
@@ -123,15 +126,15 @@ footer {
     display: block; }
   .overlay .container .row .get-in-touch {
     clear: both;
-    padding-top: 20px; }
+    padding-top: 40px; }
     .overlay .container .row .get-in-touch a {
       text-align: center;
-      font-size: 3.5rem;
+      font-size: 4rem;
       font-family: 'filson-soft';
       font-style: normal;
       font-weight: 500;
       color: #103042;
-      line-height: 22px; }
+      line-height: 32px; }
       .overlay .container .row .get-in-touch a:hover {
         text-decoration: none; }
 
@@ -207,6 +210,7 @@ header {
   background-size: cover;
   height: 450px; }
   header .dd-logo {
+    margin-top: 20px;
     height: 67px;
     display: inline-block;
     text-indent: -999px;
@@ -283,6 +287,14 @@ header {
     .block-our-services .container .i-service .i-hosting {
       background-image: url("../images/services/hosting.png"); }
 
+header {
+  background-color: #103042; }
+  header h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+    padding: 20px; }
+
 .path-frontpage header {
   background: url("../images/hero/home.jpg") top center no-repeat transparent;
   background-size: cover; }
@@ -290,7 +302,7 @@ header {
 .page-node-2 header {
   background: url("../images/hero/drupal.jpg") -10px center no-repeat transparent;
   background-size: cover; }
-  .page-node-2 header h1.dd-logo a {
+  .page-node-2 header div.dd-logo a {
     fill: #333; }
 
 .page-node-1 header {
