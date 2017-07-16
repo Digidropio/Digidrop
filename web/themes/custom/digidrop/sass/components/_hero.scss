@@ -1,10 +1,12 @@
 header {
   background-color:$darkblue;
+  background-size: cover;
   h1 {
     text-align: center;
     color:#fff;
     font-size:5rem;
     padding:20px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
   }
 }
 
@@ -17,7 +19,7 @@ header {
 // drupal
 .page-node-2 {
   header {
-    background:url('../images/hero/drupal.jpg') -10px center no-repeat transparent;
+    background:url('../images/hero/drupal.jpg') 0 center no-repeat transparent;
     background-size: cover;
     div.dd-logo {
       a {

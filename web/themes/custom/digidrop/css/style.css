@@ -42,7 +42,7 @@ a:hover {
   padding: 0; }
 
 #main-content {
-  padding: 20px 0; }
+  padding: 20px; }
 
 footer {
   background-color: #333;
@@ -97,7 +97,7 @@ footer {
   height: 300px; }
 
 .overlay {
-  background: rgba(49, 149, 210, 0.9);
+  background: rgba(49, 149, 210, 0.9) !important;
   display: none;
   position: fixed;
   top: 0;
@@ -238,6 +238,7 @@ header {
   .dd-logo {
     width: 100%;
     clear: both;
+    margin-left: 20px;
     background-repeat: no-repeat;
     background-color: transparent;
     background-position: 0 0;
@@ -297,19 +298,21 @@ header {
       background-image: url("../images/services/hosting.png"); }
 
 header {
-  background-color: #103042; }
+  background-color: #103042;
+  background-size: cover; }
   header h1 {
     text-align: center;
     color: #fff;
     font-size: 5rem;
-    padding: 20px; }
+    padding: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
 
 .path-frontpage header {
   background: url("../images/hero/home.jpg") top center no-repeat transparent;
   background-size: cover; }
 
 .page-node-2 header {
-  background: url("../images/hero/drupal.jpg") -10px center no-repeat transparent;
+  background: url("../images/hero/drupal.jpg") 0 center no-repeat transparent;
   background-size: cover; }
   .page-node-2 header div.dd-logo a {
     fill: #333; }
