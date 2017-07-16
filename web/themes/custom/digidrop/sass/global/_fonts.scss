@@ -19,8 +19,10 @@ h1, h1 a, h2, h3, h4, .dd-font {
   overflow: hidden;
 }
 
-* {
-  font-family: 'Open Sans';
+div, p, a, ul, li {
+  font-family: 'Open Sans', Helvetica, Arial, sans-Serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .jumbotron {
