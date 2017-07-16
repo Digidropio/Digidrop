@@ -56,28 +56,29 @@
  * @see html.html.twig
  */
 #}
-<!--
-<div class="fullscreen nav-overlay">
+
+<div class="overlay">
     <div class="container">
         <div class="row">
-          {#  {{ page.navigation }} #}
+            {{ page.navigation }}
+            <div class="get-in-touch">
+                <a href="mailto:hello@digidrop.io">hello@digidrop.io</a><br />
+                <a href="tel:+44 (0) 20 8050 1714">+44 (0) 20 8050 1714</a>
+            </div>
         </div>
     </div>
 </div>
--->
 
 {# header #}
 <header>
     <div class="container">
+        <div class="menu-btn">
+            <a class="btn btn-open" href="javascript:void(0)"></a>
+        </div>
         <div class="row">
             <h1 class="dd-logo"><a href="{{ path('<front>') }}">DigiDrop - Providing Digital Solutions</a></h1>
         </div>
     </div>
-    <!--
-    <nav id="nav" class="closed">
-        <a href="#" class="nav-btn closed">Navigation</a>
-    </nav>
-    -->
     {{ page.header }}
 </header>
 
