@@ -1,4 +1,4 @@
-h1, h1 a, h2, h3, h4, .dd-font {
+h1, h1 a, h2, h3, h3.line-1 a, h4, .dd-font {
   font-family: 'filson-soft';
   font-style: normal;
   font-weight: 500; }
@@ -43,7 +43,7 @@ a:hover {
 .path-frontpage #main-content {
   padding: 0; }
 
-#main-content {
+.region-content {
   padding: 20px; }
 
 footer {
@@ -238,7 +238,6 @@ header {
 
 @media screen and (max-width: 768px) {
   .dd-logo {
-    width: 100%;
     clear: both;
     margin-left: 20px;
     background-repeat: no-repeat;
