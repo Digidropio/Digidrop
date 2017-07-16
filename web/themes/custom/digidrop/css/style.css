@@ -48,6 +48,15 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 10px 0; }
+  footer a {
+    padding: 0 10px;
+    font-size: 2rem; }
+    footer a:last-child {
+      padding-right: 0; }
+    footer a:hover {
+      color: #3195D2; }
+  footer i.fa {
+    color: #fff; }
 
 .page-header {
   border: 0; }

@@ -4,8 +4,9 @@
  // var ltlng = 'lat: 51.2467790, lng: -0.5925924';
   function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 14,
-      center: {lat: 51.2467790, lng: -0.5925924}
+      zoom: 16,
+      center: {lat: 51.2467790, lng: -0.5925924},
+      scrollwheel: false
     });
 
     var DD = {
@@ -21,7 +22,6 @@
       position: map.getCenter(),
       icon: DD,
       map: map,
-      scrollwheel:  false
     });
   }
 </script>

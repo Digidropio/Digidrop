@@ -97,27 +97,29 @@
     {{ page.above_content }}
 {% endif %}
 
-<div id="main-content" class="container">
-    <div class="row">
-        {# Action Links #}
-        {% if action_links %}
-            {% block action_links %}
-                <ul class="action-links">{{ action_links }}</ul>
-            {% endblock %}
-        {% endif %}
+<div id="main-content">
+    <div class="container">
+        <div class="row">
+            {# Action Links #}
+            {% if action_links %}
+                {% block action_links %}
+                    <ul class="action-links">{{ action_links }}</ul>
+                {% endblock %}
+            {% endif %}
 
-        {# Help #}
-        {% if page.help %}
-            {% block help %}
-                {{ page.help }}
-            {% endblock %}
-        {% endif %}
+            {# Help #}
+            {% if page.help %}
+                {% block help %}
+                    {{ page.help }}
+                {% endblock %}
+            {% endif %}
 
-        {# Content #}
-        {% block content %}
-            <a id="main-content"></a>
-            {{ page.content }}
-        {% endblock %}
+            {# Content #}
+            {% block content %}
+                <a id="main-content"></a>
+                {{ page.content }}
+            {% endblock %}
+        </div>
     </div>
 </div>
 
@@ -128,7 +130,14 @@
 <footer>
     <div class="container">
         <div class="row">
-            <p>&copy; 2017 Digidrop Ltd.</p>
+            <div class="col-md-10">
+                <p>&copy; 2017 Digidrop Ltd.</p>
+            </div>
+            <div class="col-md-2">
+                <a href="https://twitter.com/digidropio"><i class="fa fa-twitter" aria-hidden="true" ></i></a>
+                <a href="https://drupal.org/digidrop"><i class="fa fa-drupal" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/company-beta/11115099"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
         </div>
     </div>
 </footer>
