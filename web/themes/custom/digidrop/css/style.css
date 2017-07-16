@@ -227,7 +227,8 @@ header {
     text-indent: -999px;
     overflow: hidden; }
     header .dd-logo a {
-      background-image: url(../images/digidrop_logo.svg); }
+      background-image: url(../images/digidrop_logo.svg);
+      height: 67px; }
       @media screen and (min-width: 768px) {
         header .dd-logo a {
           background-repeat: no-repeat;
