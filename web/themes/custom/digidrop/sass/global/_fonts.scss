@@ -8,6 +8,7 @@ h1, h1 a, h2, h3, h4, .dd-font {
   @include dd_font;
 }
 
+
 .dd-logo {
   width: 222px;
   height: 67px;
@@ -18,8 +19,8 @@ h1, h1 a, h2, h3, h4, .dd-font {
   overflow: hidden;
 }
 
-p {
-  font-family:"Open Sans";
+* {
+  font-family: 'Open Sans';
 }
 
 .jumbotron {
