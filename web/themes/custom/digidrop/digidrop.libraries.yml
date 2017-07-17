@@ -2,10 +2,9 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+      fonts/fontawesome/css/font-awesome.min.css: {}
   js:
     js/custom.js: {}
-    base:
-      'https://use.fontawesome.com/f036e04c82.js': { external: true }
   fonts:
       css:
         theme:
