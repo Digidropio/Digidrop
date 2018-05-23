@@ -26,6 +26,7 @@
         "drupal/core": "~8.0",
         "drupal/ctools": "^3.0",
         "drupal/devel": "^1.0@RC",
+        "drupal/eu_cookie_compliance": "^1.0",
         "drupal/fontyourface": "^3.1",
         "drupal/freshchat": "^1.0",
         "drupal/google_analytics": "^2.1",
